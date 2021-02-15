@@ -1,5 +1,8 @@
 // Your code goes here:
-
+function renderPerson (name, dateOfBirth, eyeColor, age, gender){
+    let outputStr = name + " is a " + age + " years old " + gender + " born on " + dateOfBirth + " with " + eyeColor + " eyes";
+    return outputStr;
+}
 
 
   ///*** Do not edit below this line ****/
